@@ -1,0 +1,100 @@
+/* 把我们所有标签的内外边距清零 */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* 高度和宽度应用于元素的所有部分: 内容、内边距和边框: */
+    box-sizing: border-box;
+}
+
+
+/* em 和 i 斜体的文字不倾斜 */
+
+em,
+i {
+    font-style: normal
+}
+
+
+/* 去掉li 的小圆点 */
+
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle;
+    /* 响应式图片会自动适配各种尺寸的屏幕。 */
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(177, 31, 31);
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #f4f4f4;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.app-container{
+    /* height:calc(100vh - 130px) ; */
+    height:calc(100vh ) ;
+    width: 100%;
+     background-color: #fff;
+}
+
+.app-register{
+    height: calc(100vh);
+    background-color: #fff;
+    width: 100%;
+}
+
+.stu-container{
+    padding-top: 20px; width: 80%; margin: 0 auto
+}

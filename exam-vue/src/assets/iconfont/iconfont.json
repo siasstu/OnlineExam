@@ -1,0 +1,58 @@
+{
+  "id": "3924745",
+  "name": "vue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8288999",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e86a",
+      "unicode_decimal": 59498
+    },
+    {
+      "icon_id": "3514074",
+      "name": "课程",
+      "font_class": "kecheng",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "5967335",
+      "name": "考试试卷",
+      "font_class": "kaoshishijuan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9545493",
+      "name": "班级管理-01",
+      "font_class": "banjiguanli-",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "9545513",
+      "name": "学生管理-01",
+      "font_class": "xueshengguanli-",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "27018279",
+      "name": "题目",
+      "font_class": "timu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "31200291",
+      "name": "答卷报告",
+      "font_class": "dajuanbaogao",
+      "unicode": "eb3b",
+      "unicode_decimal": 60219
+    }
+  ]
+}
